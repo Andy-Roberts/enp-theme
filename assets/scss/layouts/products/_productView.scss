@@ -51,9 +51,9 @@
     padding-right: spacing("base");
 
     @include breakpoint("large") {
-        clear: right;
+        clear: both;
         float: right;
-        width: grid-calc(6, $total-columns);
+        width: 100%;
     }
 
     .productView-title {
