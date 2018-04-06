@@ -270,6 +270,7 @@
     @include breakpoint("medium") {
         border: 0;
         display: block;
+        margin-top: 10px !important;
     }
 
     &.is-open {
@@ -358,6 +359,7 @@
         > .navPage-subMenu-action {
             border-bottom: 1px solid stencilColor("navPages-subMenu-separatorColor");
             margin-bottom: spacing("half") + spacing("quarter");
+            padding-bottom:25px;
         }
     }
 }

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c719404-221f-40ee-ab94-e7e5a8b55bf3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/layouts/products/_productView.scss" afterPath="$PROJECT_DIR$/assets/scss/layouts/products/_productView.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss" afterPath="$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss" />
       <change beforePath="$PROJECT_DIR$/templates/components/common/header.html" afterPath="$PROJECT_DIR$/templates/components/common/header.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +27,18 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/components/common/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+            <state relative-caret-position="544">
+              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navPages.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="272" column="36" lean-forward="false" selection-start-line="272" selection-start-column="36" selection-end-line="272" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -45,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_productView.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_productView.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/layouts/products/_productView.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
@@ -91,10 +100,10 @@
         <option value="$PROJECT_DIR$/templates/pages/sitemap.html" />
         <option value="$PROJECT_DIR$/templates/components/common/navigation.html" />
         <option value="$PROJECT_DIR$/templates/components/common/navigation-list.html" />
-        <option value="$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss" />
         <option value="$PROJECT_DIR$/templates/components/common/body.html" />
-        <option value="$PROJECT_DIR$/templates/components/common/header.html" />
         <option value="$PROJECT_DIR$/assets/scss/layouts/products/_productView.scss" />
+        <option value="$PROJECT_DIR$/templates/components/common/header.html" />
+        <option value="$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss" />
       </list>
     </option>
   </component>
@@ -139,13 +148,6 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="enp-theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enp-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -156,7 +158,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="productview.&#9;FILE&#9;file://C:/Users/andre/git/enp-theme/assets/scss/layouts/products/_productView.scss&#10;navPAges&#9;FILE&#9;file://C:/Users/andre/cornerstone/assets/scss/components/stencil/navPages&#10;navPages&#9;FILE&#9;file://C:/Users/andre/cornerstone/assets/scss/components/stencil/navPages/_navPages.scss&#10;navpages&#9;FILE&#9;file://C:/Users/andre/cornerstone/assets/scss/components/stencil/navPages/_navPages.scss&#10;sync&#9;FILE&#9;file://C:/Users/andre/cornerstone/node_modules/pbkdf2/lib/sync-browser.js&#10;menu&#9;FILE&#9;file://C:/Users/andre/cornerstone/node_modules/aria-query/lib/etc/roles/literal/menubarRole.js&#10;nav&#9;FILE&#9;file://C:/Users/andre/cornerstone/templates/components/common/navigation-list.html&#10;navigation-men&#9;FILE&#9;file://C:/Users/andre/cornerstone/templates/components/common/navigation-menu.html&#10;header&#9;FILE&#9;file://C:/Users/andre/cornerstone/templates/components/amp/common/header.html" />
+    <property name="SearchEverywhereHistoryKey" value="navpa&#9;FILE&#9;file://C:/Users/andre/git/enp-theme/assets/scss/components/stencil/navPages/_navPages.scss&#10;productview.&#9;FILE&#9;file://C:/Users/andre/git/enp-theme/assets/scss/layouts/products/_productView.scss&#10;navPAges&#9;FILE&#9;file://C:/Users/andre/cornerstone/assets/scss/components/stencil/navPages&#10;navPages&#9;FILE&#9;file://C:/Users/andre/cornerstone/assets/scss/components/stencil/navPages/_navPages.scss&#10;navpages&#9;FILE&#9;file://C:/Users/andre/cornerstone/assets/scss/components/stencil/navPages/_navPages.scss&#10;sync&#9;FILE&#9;file://C:/Users/andre/cornerstone/node_modules/pbkdf2/lib/sync-browser.js&#10;menu&#9;FILE&#9;file://C:/Users/andre/cornerstone/node_modules/aria-query/lib/etc/roles/literal/menubarRole.js&#10;nav&#9;FILE&#9;file://C:/Users/andre/cornerstone/templates/components/common/navigation-list.html&#10;navigation-men&#9;FILE&#9;file://C:/Users/andre/cornerstone/templates/components/common/navigation-menu.html&#10;header&#9;FILE&#9;file://C:/Users/andre/cornerstone/templates/components/amp/common/header.html" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -652,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/components/common/body.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -681,14 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/common/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/components/products/product-view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -701,6 +688,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="272" column="36" lean-forward="false" selection-start-line="272" selection-start-column="36" selection-end-line="272" selection-end-column="36" />
           <folding />
         </state>
       </provider>
