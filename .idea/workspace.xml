@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2c719404-221f-40ee-ab94-e7e5a8b55bf3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss" afterPath="$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss" />
-      <change beforePath="$PROJECT_DIR$/templates/components/common/header.html" afterPath="$PROJECT_DIR$/templates/components/common/header.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="_navPages.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="272" column="36" lean-forward="false" selection-start-line="272" selection-start-column="36" selection-end-line="272" selection-end-column="36" />
+            <state relative-caret-position="527">
+              <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -702,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/components/stencil/navPages/_navPages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="272" column="36" lean-forward="false" selection-start-line="272" selection-start-column="36" selection-end-line="272" selection-end-column="36" />
+        <state relative-caret-position="527">
+          <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
           <folding />
         </state>
       </provider>
