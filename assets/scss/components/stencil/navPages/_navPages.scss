@@ -81,6 +81,7 @@
         padding: 0;
         text-align: center;
         max-width: 100% !important;
+        margin-bottom:50px;
     }
 
     ul {
@@ -153,6 +154,7 @@
     border-bottom: 1px solid $navPages-list--user-borderColor;
     text-align: center;
 
+
     @include breakpoint("medium") {
         border-bottom: 0;
         text-align: left;
@@ -200,6 +202,7 @@
     text-transform: uppercase;
     width:170px;
     height:20px;
+    margin-top:30px;
 
 
     @include breakpoint("medium") {
@@ -257,6 +260,7 @@
 
     .has-subMenu.is-open & {
         transform: rotate(0);
+
     }
 }
 
@@ -267,6 +271,7 @@
 .navPage-childList {
     @extend %navPage-childList;
     display: none;
+
 
     @include breakpoint("medium") {
         border: 0;
@@ -311,6 +316,7 @@
 
     &.is-open {
         display: block;
+
     }
 }
 
@@ -352,6 +358,7 @@
         @include grid-column(3);
         padding: 0 0.75rem !important; // 1
 
+
         .navPages-action {
             text-transform: none;
             width: 100%;
@@ -361,6 +368,7 @@
             border-bottom: 1px solid stencilColor("navPages-subMenu-separatorColor");
             margin-bottom: spacing("half") + spacing("quarter");
             padding-bottom:25px;
+
         }
     }
 }
