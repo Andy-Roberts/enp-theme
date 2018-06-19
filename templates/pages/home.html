@@ -11,6 +11,14 @@ blog:
     recent_posts:
         limit: {{theme_settings.homepage_blog_posts_count}}
 ---
+
+
+
+
+
+
+
+
 {{#partial "hero"}}
     {{#if carousel}}
         {{> components/carousel}}
@@ -18,22 +26,88 @@ blog:
     {{{snippet 'home_content'}}}
 {{/partial}}
 
+
+
 {{#partial "page"}}
 
     {{#each shipping_messages}}
         {{> components/common/alert-info message}}
     {{/each}}
 
+
+<!-- Fixed top bar -->
+
+
+<div class="top-bar-container">
+    <nav class="top-bar-nav">
+        <ul class="top-bar-ul">
+            <li class="top-bar-li"><a class="topa" href="https://www.e-naturalproducts.co.uk/poole-shop/">Poole Shop</a></li>
+            <li class="top-bar-li"><a class="topa" href="https://www.e-naturalproducts.co.uk/help/">Help</a></li>
+            <li class="top-bar-li"><a class="topa" href="https://www.e-naturalproducts.co.uk/wholesale/">Wholesale</a></li>
+            <li class="top-bar-li"><a class="topa" href="https://www.e-naturalproducts.co.uk/about/">About</a></li>
+            <li class="top-bar-li"><a class="topa" href="https://www.e-naturalproducts.co.uk/natural-knowledge/">Natural Knowledge</a></li>
+            <li class="top-bar-li"><a class="topa" href="https://www.e-naturalproducts.co.uk/phone-orders/">Phone Orders</a></li>
+
+        </ul>
+
+
+
+    </nav>
+</div>
+
+<style>
+
+
+
+        .top-bar-li {
+        display: inline-block;
+        width: auto;
+        margin: 0px;
+        margin: 10px 20px;
+        text-decoration:none;
+        }
+
+        .top-bar-ul{
+ text-align:center;
+        }
+
+        .top-bar-ul a{
+        text-decoration:none;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Karla", Arial, Helvetica, sans-serif;
+        color:white;
+
+        }
+
+        .top-bar-nav{
+        background-color: #444444;
+
+        }
+
+        .topa:hover{
+        color:green;
+        }
+
+
+        </style>
+
+
+
+<br><br>
+
 <div class="main full">
     {{#if products.featured}}
         {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
     {{/if}}
-
+    <br><br>
     {{#if products.top_sellers}}
         {{> components/products/top products=products.top_sellers columns=theme_settings.homepage_top_products_column_count}}
     {{/if}}
-
+    <br><br>
     {{#if products.new}}
+    <br><br>
         {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
     {{/if}}
 </div>

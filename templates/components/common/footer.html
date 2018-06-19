@@ -1,5 +1,5 @@
 {{#if banners.bottom}}
-udo
+
 
 <div class="banners" data-banner-location="bottom">
     <div class="banner">
@@ -70,11 +70,14 @@ udo
 
             <article class="footer-info-col" data-section-type="newsletterSubscription">
                 {{#if settings.show_newsletter_box}}
-                    {{> components/common/subscription-form}}
+                   {{> components/common/social-links}}
                 {{/if}}
                 {{> components/common/payment-icons}}
             </article>
         </section>
+
+
+
         {{#if theme_settings.geotrust_ssl_common_name}}
             <div class="footer-geotrust-ssl-seal">
                 {{> components/common/geotrust-ssl-seal}}
